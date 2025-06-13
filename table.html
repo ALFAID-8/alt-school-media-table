@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <!--  table for AltSchool's programs-->
+  <head>
+    <meta charset="utf-8" />
+    <title>AltSchool Courses</title>
+    <!-- Added viewport for mobile testing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <!-- Main header  -->
+    <h1 align="center">AltSchool Africa Courses</h1>
+
+    <!-- Table structure inspired by that W3Schools example but heavily modified -->
+    <table
+      border="1"
+      cellpadding="8"
+      cellspacing="0"
+      width="95%"
+      style="margin: 0 auto"
+    >
+      <!-- Header row  bgcolor -->
+      <thead bgcolor="#eee">
+        <tr>
+          <th width="25%">School</th>
+          <!-- Adjusted width manually -->
+          <th>Program Name</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Eng programs  -->
+        <tr>
+          <td rowspan="4" valign="top">
+            <b>School of Engineering</b>
+            <!-- Prefer <b> over <strong> here -->
+          </td>
+          <td>Frontend Engineering</td>
+        </tr>
+        <tr>
+          <td>Backend Engineering</td>
+        </tr>
+        <tr>
+          <td>Cloud Engineering</td>
+        </tr>
+        <tr>
+          <td>Cyber Security</td>
+        </tr>
+
+        <!-- Product section -->
+        <tr>
+          <td rowspan="3" valign="top">School of Product</td>
+          <td>Product Design</td>
+        </tr>
+        <tr>
+          <td>Product Marketing</td>
+        </tr>
+        <tr>
+          <td>Product Management</td>
+        </tr>
+
+        <!-- Data programs -->
+        <tr>
+          <td rowspan="3" valign="top">Data Science</td>
+          <td>Data Analysis</td>
+        </tr>
+        <tr>
+          <td>Data Science</td>
+        </tr>
+        <tr>
+          <td>Data Engineering</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Wasn't sure whether to put this here -->
+    <!-- <script src="scripts.js"></script> -->
+  </body>
+</html>
